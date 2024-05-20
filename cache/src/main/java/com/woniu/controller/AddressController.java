@@ -40,6 +40,7 @@ public class AddressController extends BaseController{
 	@RequestMapping("getArea")
 	public Result getArea(String cityid) {
 		List<Area> areaByCityid = addressService.getAreaByCityid(cityid);
+		System.out.println(areaByCityid);
 		if(areaByCityid==null || areaByCityid.size()==0) {
 			return none();
 		}
