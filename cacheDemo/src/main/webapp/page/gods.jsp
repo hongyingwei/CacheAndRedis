@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 
 <head>
 	<meta charset="utf-8">
 	<!-- 引入CSS样式 -->
-	<link rel="stylesheet" href="/static/css/qunit.css">
-	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.11.0.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- JS -->
-	<script src="/static/js/jquery.min.js" type="text/javascript"></script>
-	<script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="/static/js/bootstrap-paginator.min.js"></script>
-	<script src="/static/js/qunit.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-paginator/2.0.1/bootstrap-paginator.min.js"></script>
+	<script src="https://code.jquery.com/qunit/qunit-1.11.0.js"></script>
 </head>
 
 <body>
