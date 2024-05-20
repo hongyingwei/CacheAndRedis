@@ -26,11 +26,11 @@ CREATE TABLE `areas` (
   `area` varchar(50) NOT NULL,
   `cityid` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3303 DEFAULT CHARSET=utf8 COMMENT='行政区域县区信息表';
+) ENGINE=MyISAM AUTO_INCREMENT=3306 DEFAULT CHARSET=utf8 COMMENT='行政区域县区信息表';
 
 /*Data for the table `areas` */
 
-insert  into `areas`(`id`,`areaid`,`area`,`cityid`) values (1,'110101','东城区','110100');
+insert  into `areas`(`id`,`areaid`,`area`,`cityid`) values (1,'110101','东城区','110100'),(3303,'110102','西城区','110100'),(3304,'110103','北城区','110101'),(3305,'110104','南城区','110101');
 
 /*Table structure for table `cities` */
 
@@ -42,11 +42,11 @@ CREATE TABLE `cities` (
   `city` varchar(50) NOT NULL,
   `provinceid` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=354 DEFAULT CHARSET=utf8 COMMENT='行政区域地州市信息表';
+) ENGINE=MyISAM AUTO_INCREMENT=355 DEFAULT CHARSET=utf8 COMMENT='行政区域地州市信息表';
 
 /*Data for the table `cities` */
 
-insert  into `cities`(`id`,`cityid`,`city`,`provinceid`) values (1,'110100','市辖区','110000');
+insert  into `cities`(`id`,`cityid`,`city`,`provinceid`) values (1,'110100','市辖区','110000'),(354,'110101','县辖区','110000');
 
 /*Table structure for table `provinces` */
 
